@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+      body {
+        background-image: url(../images/bk4.jpg);
+        background-repeat: no-repeat;
+        background-position: 0%;
+      }
+      .imgs {
+        background: rgba(255, 255, 255, 0.5);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top" style="backdrop-filter: blur(10px);">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./district.html">District</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./sigin.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./register.html">Register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+          <img src="../images/Kerala.png" alt="logo" class="d-flex logos">
+        </div>
+      </div>
+    </nav>
+    <div class="container mt-4 border p-3 imgs">
+      <div class="row row-cols-2">
+        <div class="col">
+          <h2>Our Location</h2>
+          <div id="map" style="height: 300px;border: 1px solid #ccc;">
+            <iframe src="https://maps.google.com/maps?q=nest%20kalamassery%20hitek%20park%20plot%202e&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" style="width: 100%; height:100%;"></iframe>
+          </div>
+        </div>
+        <div class="col">
+          <h2>Contact Us</h2>
+          <form>
+            <div class="form-group pb-2">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group pb-2">
+              <label for="comment">Comment</label>
+              <textarea class="form-control" id="comment" rows="4" placeholder="Enter your comment"></textarea>
+            </div>
+            <a href="mailto:tourism@gmail.com" class="btn btn-primary pb-2">Send</a>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

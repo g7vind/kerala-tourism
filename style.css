@@ -1,0 +1,15 @@
+.imgc{
+    height:703px;
+    width: 100%;
+    background-size: cover;
+}
+.logos{
+    height: 50px;
+    width: 100px;
+}
+.navbar{
+    background: rgba(255,255,255,0.5);
+-webkit-backdrop-filter: blur(1px);
+backdrop-filter: blur(1px);
+border: 1px solid rgba(255,255,255,0.25);
+  }
